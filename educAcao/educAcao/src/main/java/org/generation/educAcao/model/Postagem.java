@@ -1,6 +1,6 @@
 package org.generation.educAcao.model;
 
-import java.sql.Date;
+import java.util.Date;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -77,14 +77,6 @@ public class Postagem {
 		this.referencia = referencia;
 	}
 
-	public Date getDate() {
-		return data;
-	}
-
-	public void setDate(Date date) {
-		this.data = date;
-	}
-
 	public String getConteudo() {
 		return conteudo;
 	}
@@ -100,5 +92,22 @@ public class Postagem {
 	public void setUsuario(Usuario usuario) {
 		this.usuario = usuario;
 	}
+
+	public String getReferencia() {
+		return referencia;
+	}
+
+	public void setReferencia(String referencia) {
+		this.referencia = referencia;
+	}
+
+	public Date getData() {
+		return data;
+	}
+
+	public void setData(Date data) {
+		this.data = data;
+	}
+	
 	
 }
