@@ -11,6 +11,7 @@ import javax.persistence.OneToMany;
 import javax.persistence.Table;
 import javax.validation.constraints.NotNull;
 
+
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
 
@@ -33,7 +34,7 @@ public class Usuario {
 	
 	@OneToMany(mappedBy = "usuario", cascade = CascadeType.ALL)
 	@JsonIgnoreProperties("usuario")
-	private List<Usuario> usuario;
+	private List<Postagem> postagem;
 
 	public long getId() {
 		return id;
@@ -43,11 +44,11 @@ public class Usuario {
 		this.id = id;
 	}
 
-	public String getNome_Completo() {
+	public String getNomeCompleto() {
 		return nomeCompleto;
 	}
 
-	public void setNome_Completo(String nomeCompleto) {
+	public void setNomeCompleto(String nomeCompleto) {
 		this.nomeCompleto = nomeCompleto;
 	}
 
@@ -67,12 +68,14 @@ public class Usuario {
 		this.senha = senha;
 	}
 
-	public List<Usuario> getPostagem() {
-		return usuario;
+	public List<Postagem> getPostagem() {
+		return postagem;
 	}
 
-	public void setPostagem(List<Usuario> usuario) {
-		this.usuario = usuario;
-	}	
+	public void setPostagem(List<Postagem> postagem) {
+		this.postagem = postagem;
+	}
+
+	
 
 }
