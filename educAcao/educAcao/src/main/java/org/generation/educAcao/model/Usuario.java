@@ -32,7 +32,10 @@ public class Usuario {
 	@NotNull
 	private String senha;
 	
-	@OneToMany(mappedBy = "usuario", cascade = CascadeType.ALL)
+	
+	private String foto;
+	
+	@OneToMany(mappedBy = "usuario", cascade = CascadeType.REMOVE)
 	@JsonIgnoreProperties("usuario")
 	private List<Postagem> postagem;
 
@@ -76,6 +79,15 @@ public class Usuario {
 		this.postagem = postagem;
 	}
 
+	public String getFoto() {
+		return foto;
+	}
+
+	public void setFoto(String foto) {
+		this.foto = foto;
+	}
+	
+	
 	
 
 }
