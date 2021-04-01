@@ -12,6 +12,11 @@
 <p>Protótipo de banco de dados, o projeto escolhido foi o  de uma rede social, onde configuramos  três tabelas como essenciais que são: USUARIO, TEMA, E POSTAGENS.</p>
 <h6>A imagem abaixo consta as tabelas com seus atributos: </h6>  
 <img src="https://i.imgur.com/OEOUVVo.png">
+<hr><br>
+
+<h2>Application</h2>
+<h4>Inicialização da aplicação utilizando Java:</h4>
+<img src="https://i.imgur.com/XdzYg0h.png">
 
 <hr>
  <h2>Application properties:</h2>
