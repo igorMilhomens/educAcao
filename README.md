@@ -1,3 +1,7 @@
 # educAcao
-
-Atenção: Necessario o downloads dos frameworks neste link: https://drive.google.com/drive/folders/1lBthGGtGp_-4NEtF1NOzKeQwdAIUmPQf?usp=sharing
+<h1>Banco de dados
+<p>Protótipo de banco de dados, o projeto escolhido foi o  de uma rede social, onde configuramos  três tabelas como essenciais que são: USUARIO, TEMA, E POSTAGENS.</p>
+<hr>
+<h6>A imagem abaixo consta as tabelas com seus atributos: </h6>  
+<img src="https://i.imgur.com/YHviBHX.png">
+ 
