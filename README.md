@@ -5,11 +5,20 @@
 <h6>A imagem abaixo consta as tabelas com seus atributos: </h6>  
 <img src="https://i.imgur.com/YHviBHX.png">
  
- Application properties
+ Application properties:
+ Permitir a configuração e especifição as propriedades para uma aplicação Spring Boot. 
  <img src="https://i.imgur.com/J3CHDWt.png">
  
- Service
+ Service: 
+ Responsavel pela criação da regra de negocio. Esses arquivos de classe são usados para escrever lógica de negócios em uma camada diferente, separada do arquivo de classe @RestController.
 <img src="https://i.imgur.com/MouGpat.png">
+
+Basic Security Config:
+Responsavel por fornece proteção, mas também autenticação, autorização e armazenamento de senhas.
+<img src="https://i.imgur.com/7aiA6Fq.png">
+
+Controller:
+Administrar e manipular todos os MVC, é responsável por processar as solicitações de entrada da API REST, preparar um model e retornar a visualização para ser renderizada como uma resposta.
 
 Controller usuario
 <img src="https://i.imgur.com/JEMlsJf.png">
@@ -20,5 +29,3 @@ Controller tema
 Controller Postagem
 <img src="https://i.imgur.com/LwojZWz.png">
 
-Basic Security Config
-<img src="https://i.imgur.com/7aiA6Fq.png">
