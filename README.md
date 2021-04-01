@@ -13,9 +13,8 @@
 <hr>
 
 <h6>A imagem abaixo consta as tabelas com seus atributos: </h6>  
-<img src="https://i.imgur.com/YHviBHX.png">
+<img src="https://i.imgur.com/OEOUVVo.png">
 
- <hr>
  <h2>Application properties:</h2>
  <h4>Permitir a configuração e especifição as propriedades para uma aplicação Spring Boot. </h4>
  <img src="https://i.imgur.com/J3CHDWt.png">
