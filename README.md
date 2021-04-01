@@ -21,21 +21,21 @@
 <hr>
  <h2>Application properties:</h2>
  <h4>Permitir a configuração e especifição as propriedades para uma aplicação Spring Boot. </h4>
- <img src="https://i.imgur.com/J3CHDWt.png">
+ <img src="https://i.imgur.com/nnVqTYJ.png">
 <hr>
  
 <h2>Service:</h2> 
-<h4>Responsavel pela criação da regra de negocio. Esses arquivos de classe são usados para escrever lógica de negócios em uma camada diferente, separada do arquivo de classe @RestController.</h4>
+<h4>Responsável pela criação da regra de negócio. Esses arquivos de classe são usados para escrever a lógica de negócios em uma camada diferente, separada do arquivo de classe @RestController.</h4>
 <img src="https://i.imgur.com/MouGpat.png">
 <hr>
 
 <h2>Basic Security Config:</h2>
-<h4>Responsavel por fornece proteção, mas também autenticação, autorização e armazenamento de senhas.</h4>
+<h4>Responsável por fornecer proteção, mas também autenticação, autorização e armazenamento de senhas.</h4>
 <img src="https://i.imgur.com/7aiA6Fq.png">
 <hr>
 
 <h2>Controller:</h2>
-<h4>Administrar e manipular todos os MVC, é responsável por processar as solicitações de entrada da API REST, preparar um model e retornar a visualização para ser renderizada como uma resposta.</h4>
+<h4>Administrar e manipular todos os MVC, é responsável por processar as solicitações de entrada da API REST, preparar uma model e retornar a visualização para ser renderizada como uma resposta.</h4>
 
 <h2>Controller Usuário</h2>
 <img src="https://i.imgur.com/JEMlsJf.png">
