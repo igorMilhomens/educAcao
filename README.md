@@ -20,7 +20,7 @@
 
 <hr>
  <h2>Application properties:</h2>
- <h4>Permitir a configuração e especifição as propriedades para uma aplicação Spring Boot. </h4>
+ <h4>Permitir a configuração e especificação as propriedades para uma aplicação Spring Boot. </h4>
  <img src="https://i.imgur.com/nnVqTYJ.png">
 <hr>
  
