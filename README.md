@@ -37,12 +37,12 @@
 <h2>Controller:</h2>
 <h4>Administrar e manipular todos os MVC, é responsável por processar as solicitações de entrada da API REST, preparar uma model e retornar a visualização para ser renderizada como uma resposta.</h4>
 
-<h2>Controller Usuário</h2>
+<h3>Controller Usuário</h3>
 <img src="https://i.imgur.com/JEMlsJf.png">
 
-<h2>Controller Tema</h2>
+<h3>Controller Tema</h3>
 <img src="https://i.imgur.com/K0QgYnp.png">
 
-<h2>Controller Postagem</h2>
+<h3>Controller Postagem</h3>
 <img src="https://i.imgur.com/LwojZWz.png">
 <hr>
