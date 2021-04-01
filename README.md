@@ -1,4 +1,4 @@
-<h1> EducAção</h1>
+<h1> EducAção</h1><br>
 
 <h2>A aplicação do BACKEND utiliza:</h2>
 <ul>
@@ -20,7 +20,7 @@
 
 <hr>
  <h2>Application properties:</h2>
- <h4>Permitir a configuração e especificação as propriedades para uma aplicação Spring Boot. </h4>
+ <h4>Permite a configuração e especificação das propriedades para uma aplicação Spring Boot. </h4>
  <img src="https://i.imgur.com/nnVqTYJ.png">
 <hr>
  
