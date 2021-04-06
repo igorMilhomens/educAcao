@@ -53,10 +53,14 @@ public class UsuarioController {
 		
 	}
 	
-	@PostMapping("/atualizar")
-	public ResponseEntity<Usuario> PostAtualizar(@RequestBody Usuario usuario) {
-		return ResponseEntity.status(HttpStatus.CREATED)
-				.body(usuarioService.AtualizarUsuario(usuario));
+	@PutMapping
+	public ResponseEntity<Usuario> Put(@RequestBody Usuario usuario) { 
+		Optional<Usuario> user = usuarioService.AtualizarUsuario(usuario);
+		try {
+			return ResponseEntity.ok(user.get());
+		} catch (Exception e) {
+			return ResponseEntity.badRequest().build();
+		}
 	}
 	
 	@GetMapping("/{id}")
