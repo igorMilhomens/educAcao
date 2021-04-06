@@ -56,13 +56,13 @@ public class UsuarioService {
 		return null;
 	}
 	
-	public Usuario AtualizarUsuario(Usuario usuario) {
+	public Optional<Usuario> AtualizarUsuario(Usuario usuario) {
 		BCryptPasswordEncoder encoder = new BCryptPasswordEncoder();
-
+		
 		String senhaEncoder = encoder.encode(usuario.getSenha());
 		usuario.setSenha(senhaEncoder);
-
-		return repository.save(usuario);
+		
+		return Optional.of(repository.save(usuario));
 	}
 }
 
