@@ -48,6 +48,7 @@ public class UsuarioService {
 				user.get().setNome(usuario.get().getNomeCompleto());
 				user.get().setSenha(usuario.get().getSenha());
 				user.get().setFoto(usuario.get().getFoto());
+				user.get().setTipo(usuario.get().getTipo());
 
 				return user;
 
@@ -56,13 +57,13 @@ public class UsuarioService {
 		return null;
 	}
 	
-	public Usuario AtualizarUsuario(Usuario usuario) {
+	public Optional<Usuario> AtualizarUsuario(Usuario usuario) {
 		BCryptPasswordEncoder encoder = new BCryptPasswordEncoder();
-
+		
 		String senhaEncoder = encoder.encode(usuario.getSenha());
 		usuario.setSenha(senhaEncoder);
-
-		return repository.save(usuario);
+		
+		return Optional.of(repository.save(usuario));
 	}
 }
 

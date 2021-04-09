@@ -53,17 +53,19 @@ public class UsuarioController {
 		
 	}
 	
-	@PostMapping("/atualizar")
-	public ResponseEntity<Usuario> PostAtualizar(@RequestBody Usuario usuario) {
-		return ResponseEntity.status(HttpStatus.CREATED)
-				.body(usuarioService.AtualizarUsuario(usuario));
+	@PutMapping
+	public ResponseEntity<Usuario> Put(@RequestBody Usuario usuario) { 
+		Optional<Usuario> user = usuarioService.AtualizarUsuario(usuario);
+		try {
+			return ResponseEntity.ok(user.get());
+		} catch (Exception e) {
+			return ResponseEntity.badRequest().build();
+		}
 	}
 	
 	@GetMapping("/{id}")
 	public ResponseEntity<Usuario> GetById(@PathVariable long id) {
 		return repository.findById(id).map( resp -> ResponseEntity.ok(resp)).orElse(ResponseEntity.notFound().build());
 	}
-	
-	
 	
 }
