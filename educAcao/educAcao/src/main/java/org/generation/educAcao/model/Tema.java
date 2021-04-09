@@ -26,6 +26,8 @@ public class Tema
 	
 	private String descricao;
 	
+	private String icon;
+	
 	@OneToMany(mappedBy = "tema", cascade = CascadeType.REMOVE)
 	@JsonIgnoreProperties("tema")
 	private List<Postagem> postagem;
@@ -62,5 +64,15 @@ public class Tema
 		this.postagem = postagem;
 		
 	}
+
+	public String getIcon() {
+		return icon;
+	}
+
+	public void setIcon(String icon) {
+		this.icon = icon;
+	}
+	
+	
 	
 }
