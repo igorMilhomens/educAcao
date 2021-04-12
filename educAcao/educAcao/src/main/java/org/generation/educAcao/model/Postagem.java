@@ -23,14 +23,10 @@ public class Postagem {
 	private long id;
 	
 	@NotNull
-	@Size(min = 1, max = 100)
 	private String titulo;
 	
-	@NotNull
-	@Size(min= 1 , max=144)
 	private String conteudo;
 	
-	@Size(min = 10, max = 100)
 	private String referencia;
 	
 	private String imagem;
