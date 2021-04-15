@@ -1,12 +1,15 @@
 package org.generation.educAcao.model;
 
 import java.util.Date;
+import java.util.List;
 
+import javax.persistence.CascadeType;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.ManyToOne;
+import javax.persistence.OneToMany;
 import javax.persistence.Table;
 import javax.persistence.Temporal;
 import javax.persistence.TemporalType;
@@ -46,6 +49,10 @@ public class Postagem {
 	@ManyToOne
 	@JsonIgnoreProperties("postagem")
 	private Usuario usuario;
+	
+	@OneToMany(mappedBy = "postagem", cascade = CascadeType.REMOVE)
+	@JsonIgnoreProperties("postagem")
+	private List<ComentarioPostagem> comentario;
 	
 
 	public Tema getTema() {
@@ -127,6 +134,15 @@ public class Postagem {
 	public void setVideo(String video) {
 		this.video = video;
 	}
+
+	public List<ComentarioPostagem> getComentario() {
+		return comentario;
+	}
+
+	public void setComentario(List<ComentarioPostagem> comentario) {
+		this.comentario = comentario;
+	}
+	
 	
 	
 }
