@@ -50,7 +50,7 @@
  </table> 
 
 ## <h2>Banco de dados</h2>
-<p>Protótipo de banco de dados, o projeto escolhido foi o  de uma rede social, onde configuramos  três tabelas como essenciais que são: USUARIO, TEMA, E POSTAGENS.</p>
+<p>Protótipo do banco de dados da primeira tabela criada, o projeto escolhido foi o de uma rede social, onde configuramos três tabelas como essenciais que são: USUARIO, TEMA, E POSTAGENS.</p>
 <h6>A imagem abaixo consta as tabelas com seus atributos: </h6>  
 <img src="https://i.imgur.com/OEOUVVo.png">
 
