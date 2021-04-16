@@ -1,5 +1,7 @@
 <h1> EducAção</h1><br>
 
+
+
 <h2>A aplicação do BACKEND utiliza:</h2>
 <ul>
  <li>IDE - Eclipse</li>
@@ -8,11 +10,53 @@
 </ul>
 <p>As instruções para instalação das ferramentas utilizadas, <a href="https://drive.google.com/drive/folders/1lBthGGtGp_-4NEtF1NOzKeQwdAIUmPQf?usp=sharing">clique aqui!</a></p>
 <hr>
+
+## <h3>Documentação:</h3>
+<ul>
+  <li><a href="https://github.com/igorMilhomens/educAcao">BACK-END</a></li>
+  <li><a href="https://github.com/Gustavo-Esteban/educAcao-FrontEnd">FRONT-END</li>
+</ul>
+
+## <h2> Desenvolvedores participantes da EducAção: </h2>
+
+<table>
+  <th width="200px">Alonso Mendes</th>
+  <td><a href="https://github.com/AlonsoMendes"><img width="20px" src="https://i.imgur.com/aH6XgEL.png"></a></td> 
+  <td><a href="https://www.linkedin.com/in/alonso-mendes-15a26b1b6/"><img width="20px" src="https://i.imgur.com/pJ2QVXq.png"></a></td>
+</table>
+ <table>
+  <th width="200px">Felipe Casagrande</th>
+  <td><a href="https://github.com/fehcasa"><img width="20px" src="https://i.imgur.com/aH6XgEL.png"></a></td> 
+  <td><a href="https://www.linkedin.com/in/felipecasagrande1307/"><img width="20px" src="https://i.imgur.com/pJ2QVXq.png"></a></td>
+ </table> 
+ <table> 
+  <th width="200px">Gustavo Esteban</th>
+  <td><a href="https://github.com/Gustavo-Esteban"><img width="20px" src="https://i.imgur.com/aH6XgEL.png"></a></td> 
+  <td><a href="https://www.linkedin.com/in/gustavo-esteban/"><img width="20px" src="https://i.imgur.com/pJ2QVXq.png"></a></td>
+ </table> 
+ <table> 
+  <th width="200px">Igor Milhomens</th>
+  <td><a href="https://github.com/igorMilhomens"><img width="20px" src="https://i.imgur.com/aH6XgEL.png"></a></td> 
+  <td><a href="https://www.linkedin.com/in/igor-milhomens/"><img width="20px" src="https://i.imgur.com/pJ2QVXq.png"></a></td>
+ </table> 
+ <table> 
+  <th width="200px">Leonardo Burjato</th>
+  <td><a href="https://github.com/qbleonardo"><img width="20px" src="https://i.imgur.com/aH6XgEL.png"></a></td> 
+  <td><a href="https://www.linkedin.com/in/leonardo-burjato/"><img width="20px" src="https://i.imgur.com/pJ2QVXq.png"></a></td>
+ </table>  
+ <table> 
+  <th width="200px">Lucas Paifar</th>
+  <td><a href="https://github.com/lpaifar"><img width="20px" src="https://i.imgur.com/aH6XgEL.png"></a></td> 
+  <td><a href="https://www.linkedin.com/in/lucaspaifar/"><img width="20px" src="https://i.imgur.com/pJ2QVXq.png"></a></td>
+ </table> 
+
 <h2>Banco de dados</h2>
 <p>Protótipo de banco de dados, o projeto escolhido foi o  de uma rede social, onde configuramos  três tabelas como essenciais que são: USUARIO, TEMA, E POSTAGENS.</p>
 <h6>A imagem abaixo consta as tabelas com seus atributos: </h6>  
 <img src="https://i.imgur.com/OEOUVVo.png">
 <hr><br>
+
+
 
 <h2>Application</h2>
 <h4>Inicialização da aplicação utilizando Java:</h4>
@@ -46,3 +90,13 @@
 <h3>Controller Postagem</h3>
 <img src="https://i.imgur.com/LwojZWz.png">
 <hr>
+
+<h3>Controller ComentarioPostagem</h3>
+<img src="https://i.imgur.com/ZkOq3eE.png">
+<hr>
+
+## <h2 align="center"> Conheça mais sobre o projeto!</h2>
+<p align="center">Acesse o site e conheça mais sobre o nosso projeto! <strong>Clique no ícone abaixo:</strong></p>
+<p align="center"><a href="https://educacao1.herokuapp.com/"><img width="90px" src="https://i.imgur.com/NhBWVw2.png"></p>
+
+
