@@ -1,7 +1,7 @@
 <p align="center"><img width="200px" src="https://i.imgur.com/AdJMOJr.png"/></p>
 <br>
 
-## A aplicação do BACKEND utiliza:
+## A aplicação do BACK-END utiliza:
 <ul>
  <li>IDE - Eclipse</li>
  <li>MySQL</li>
