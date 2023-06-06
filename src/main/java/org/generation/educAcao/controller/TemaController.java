@@ -45,7 +45,7 @@ public class TemaController
 		return ResponseEntity.ok(repository.findAllByDescricaoContainingIgnoreCase(nome));
 	}
 	
-	@PostMapping
+	@PostMapping(value = "/", consumes = {"*/*"})
 	public ResponseEntity<Tema> Post (@RequestBody Tema tema)
 	{
 		return ResponseEntity.status(HttpStatus.CREATED).body(repository.save(tema));

@@ -42,7 +42,7 @@ public class PostagemController {
 				
 	}
 	
-	@PostMapping
+	@PostMapping(value = "/", consumes = {"*/*"})
 	public ResponseEntity<Postagem> post (@RequestBody Postagem postagem){
 		return ResponseEntity.status(HttpStatus.CREATED).body(repository.save(postagem));
 	}
